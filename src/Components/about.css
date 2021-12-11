@@ -1,0 +1,134 @@
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    background-image: linear-gradient(to left rgb(148, 17, 17) 60% #2fe01f 15%);
+}
+.Portfolio{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-image: linear-gradient(to top #fff 10% #c3f5ff 10%);
+    justify-content: space-around;
+    align-items: center;
+}
+.Portfolio_logo{
+    width: 35%;
+    /* background-image: linear-gradient( #5262cc, green); */
+    padding-left: 100px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.Portfolio_logo h2{
+    text-transform: unset;
+    font-size: 1.6rem;
+    animation: logoagepiche 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes logoagepiche{
+    from{padding-left: 70px;}
+    to {padding-right: 70px;}
+}
+span{
+    width: 65%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+span a{
+    text-decoration: none;
+    text-transform: unset;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+    display: flex;
+}
+span a:first-child{
+    color:blue;
+}
+span a:before{
+ content: "";
+ position: absolute;
+ top:110%;
+ width: 0%;
+ height: 2px;
+ border-bottom: 2px solid brown;
+ transition: all 0.3s linear;
+}
+span a:hover:before{
+    width: 100%;
+}
+main{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* for homepage rightside image border k liya */
+/* .RightImg{
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+   background-color: white;
+} */
+.RightImg img{
+    max-width: 450px;
+    height: auto;
+    margin-top: 9vh;
+}
+.LeftSide{
+    color: black;
+    text-transform: uppercase;
+    margin-top: 9vh;
+}
+.LeftSide h3{
+ font-size: 40px;
+ margin-bottom: 18px;
+ position: relative;
+}
+.LeftSide h3:after{
+    content: "";
+    width: 400px;
+    margin-left: 13%;
+    height: 3px;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    background-color: black;
+}
+.LeftSide h4{
+    font-size: 60px;
+    margin-bottom: 18px;
+   }
+   .LeftSide h5{
+    font-weight: 35px;
+    margin-bottom: 25px;
+    word-spacing: 4px;
+
+   }
+   .LeftSide .first_btn,.second_btn{
+       text-decoration: none;
+       font-weight: 900;
+       font-size: 14px;
+       text-align: center;
+       padding: 12px 25px;
+       text-transform: uppercase;
+       border-radius: 5px;
+       cursor: pointer;
+       display: inline-block;
+       margin-right: 50px;
+       color:black;
+       letter-spacing: 0;
+       box-shadow: 0px 10px 30px rgba(118, 85, 225, 2.3);
+   }
+   .LeftSide .first_btn:hover,.second_btn:hover{
+       margin-right: 50px;
+       border-radius: 5px solid rgb(161, 161, 170);
+       color: black;
+       background-color: blueviolet;
+       box-shadow: none;
+   }
+   

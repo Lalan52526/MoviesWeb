@@ -1,0 +1,65 @@
+
+/* Logo style */
+.logo{
+  float: right;
+  margin-left: 4px;
+  height: 10%;
+  width: 15%;
+}
+/* Style the navigation bar */
+.collapse navbar-collapse{
+  font-size: 30px;
+  position: fixed;
+  display: flex;
+}
+.nav-item{
+  font-size: 25px; 
+}
+.navbar-nav{
+  margin-left: 60%;
+}
+/* Home page style */
+.Homepage_face{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 15%;
+  width: 40%;
+  height: 60%;
+  margin-top: 15%;
+}
+h1{
+  margin-left: 15%;
+  color: rgb(15, 70, 223);
+}
+.Getstart-button{
+  margin-left: 20%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 30%;
+  height: 20%;
+}
+.btn{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  transition: 0.5s;
+}
+.btn:hover{
+  padding: 2px 6px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.navbar-nav a:hover{
+  color: #710fb3;
+  background-color: #13f392;
+  box-shadow: 0 0 10px #3ec415 , 0 0 40px #2196f3 , 0 0 80px #2196f3;
+}
+.dev-homepagepic{
+  height: 60%;
+  width: 70%;
+  float: right;
+  margin-left: 70%;
+  margin-right: -80%;
+  margin-top: -35%;
+ }

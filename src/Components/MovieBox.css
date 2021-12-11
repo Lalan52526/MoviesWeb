@@ -1,0 +1,52 @@
+.MovieBox{
+ width: 250px;
+ height: 0%;
+ border-radius: 10px;
+ box-shadow: 3px 3px 5px rgb(0, 0,0.1);
+ overflow: hidden;
+ background-color: #373b69;
+ position: relative;
+}
+.MovieBox img{
+    max-width: 100%;
+    justify-content: space-evenly;
+
+}
+.title{
+    color: rgb(18, 190, 212);
+    text-align: center;
+    margin-top: 3%;
+}
+.Movie_title_lang{
+    color: rgb(25, 212, 109);
+    margin-top: 5%;
+}
+.type{
+    float: right;
+   margin-top: -10%;
+   margin-right: -15%;
+}
+.lang{
+    margin-left: -15%;
+}
+.badge{
+    color: rgb(238, 65, 12);
+    margin-top: 0%;
+    margin-left: 20%;
+}
+.Movie_info{
+    background-color: rgb(48, 202, 202);
+    position: absolute;
+    color: #000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+}
+.MovieBox:hover{
+    transform: translateY(0%);
+    overflow: auto;
+}
+.Movie_info span, h4{
+    margin-left: 8%;
+}
